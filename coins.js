@@ -23,6 +23,7 @@ function printIt(amountInput) {
   for ( let prop in coins) {
 
     change.innerHTML += `<li> ${coins[prop]} ${prop} </li>`;
+    console.log('prop is:', coins[prop]);
 
   }; //end (for...in)
 
